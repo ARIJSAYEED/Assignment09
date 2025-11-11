@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1",
+    "title": "Hollow Knight",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+    "category": "Metroidvania",
+    "downloadLink": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "description": "A challenging 2D action-adventure through a vast interconnected world. Battle enemies, explore forgotten caverns, and uncover ancient secrets in this beautifully hand-drawn indie masterpiece.",
+    "ratings": "4.8",
+    "developer": "Team Cherry"
+  },
+  {
+    "id": "2",
+    "title": "Stardew Valley",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbg.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "description": "Build the farm of your dreams in this peaceful farming simulator. Grow crops, raise animals, craft items, and build relationships with the townspeople in this charming countryside adventure.",
+    "ratings": "4.9",
+    "developer": "ConcernedApe"
+  },
+  {
+    "id": "3",
+    "title": "Celeste",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgg.jpg",
+    "category": "Platformer",
+    "downloadLink": "https://store.steampowered.com/app/504230/Celeste/",
+    "description": "Help Madeline survive her journey to the top of Celeste Mountain in this tight platformer. Uncover secrets, overcome challenging obstacles, and confront her inner demons in this heartfelt story.",
+    "ratings": "4.7",
+    "developer": "Maddy Makes Games"
+  },
+  {
+    "id": "4",
+    "title": "Hades",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i6u.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/1145360/Hades/",
+    "description": "Defy the god of the dead in this hack-and-slash roguelike. Battle out of hell with ever-changing challenges, unlock powerful upgrades, and uncover an epic story with stunning art and voice acting.",
+    "ratings": "4.9",
+    "developer": "Supergiant Games"
+  },
+  {
+    "id": "5",
+    "title": "Undertale",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgz.jpg",
+    "category": "RPG",
+    "downloadLink": "https://store.steampowered.com/app/391540/Undertale/",
+    "description": "A unique RPG where nobody has to die. Navigate a quirky underground world filled with monsters, puzzles, and memorable characters. Your choices determine the fate of everyone.",
+    "ratings": "4.6",
+    "developer": "Toby Fox"
+  },
+  {
+    "id": "6",
+    "title": "Dead Cells",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iqg.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/588650/Dead_Cells/",
+    "description": "A roguelite metroidvania with tight combat and fluid movement. Fight through an ever-changing castle, unlock permanent upgrades, and master intense boss battles in this addictive action game.",
+    "ratings": "4.7",
+    "developer": "Motion Twin"
+  },
+  {
+    "id": "7",
+    "title": "Terraria",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgc.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://store.steampowered.com/app/105600/Terraria/",
+    "description": "Dig, fight, explore, and build in this 2D sandbox adventure. Battle monsters, craft weapons and armor, build structures, and discover treasures in procedurally generated worlds.",
+    "ratings": "4.8",
+    "developer": "Re-Logic"
+  },
+  {
+    "id": "8",
+    "title": "Cuphead",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iug.jpg",
+    "category": "Run and Gun",
+    "downloadLink": "https://store.steampowered.com/app/268910/Cuphead/",
+    "description": "A brutally challenging run-and-gun action game with stunning 1930s cartoon art style. Battle epic bosses, master precise platforming, and enjoy hand-drawn animation with a jazzy soundtrack.",
+    "ratings": "4.5",
+    "developer": "Studio MDHR"
+  },
+  {
+    "id": "9",
+    "title": "Among Us",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f3l.jpg",
+    "category": "Multiplayer",
+    "downloadLink": "https://store.steampowered.com/app/945360/Among_Us/",
+    "description": "Play with 4-15 players online as you attempt to complete tasks on a spaceship while identifying the impostor among the crew. Teamwork, deception, and deduction are key to survival.",
+    "ratings": "4.3",
+    "developer": "InnerSloth"
+  },
+  {
+    "id": "10",
+    "title": "Slay the Spire",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1irf.jpg",
+    "category": "Card Game",
+    "downloadLink": "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+    "description": "A roguelike deck-building game where you craft a unique deck and climb the spire. Battle enemies with strategic card combos, unlock new cards, and face challenging bosses in ever-changing runs.",
+    "ratings": "4.8",
+    "developer": "MegaCrit"
+  },
+  {
+    "id": "11",
+    "title": "The Binding of Isaac: Rebirth",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rh0.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/",
+    "description": "A randomly generated action RPG shooter with heavy roguelike elements. Guide Isaac through procedurally generated dungeons, fight bizarre enemies, and discover hundreds of items and synergies.",
+    "ratings": "4.6",
+    "developer": "Nicalis"
+  },
+  {
+    "id": "12",
+    "title": "Ori and the Blind Forest",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r87.jpg",
+    "category": "Metroidvania",
+    "downloadLink": "https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/",
+    "description": "A visually stunning platform-adventure game with a deeply emotional story. Navigate a beautiful hand-painted forest, solve puzzles, and restore light to a dying world.",
+    "ratings": "4.8",
+    "developer": "Moon Studios"
+  },
+  {
+    "id": "13",
+    "title": "Shovel Knight",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgy.jpg",
+    "category": "Platformer",
+    "downloadLink": "https://store.steampowered.com/app/250760/Shovel_Knight_Treasure_Trove/",
+    "description": "A retro-inspired platformer with tight controls and creative level design. Battle through knights of the Order of No Quarter with your trusty shovel blade in this 8-bit adventure.",
+    "ratings": "4.7",
+    "developer": "Yacht Club Games"
+  },
+  {
+    "id": "14",
+    "title": "Minecraft",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rfz.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "The ultimate sandbox game where creativity knows no bounds. Build, explore, survive, and thrive in blocky worlds. Mine resources, craft tools, and shape your own adventure.",
+    "ratings": "4.6",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "15",
+    "title": "Katana ZERO",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iuz.jpg",
+    "category": "Action",
+    "downloadLink": "https://store.steampowered.com/app/460950/Katana_ZERO/",
+    "description": "A stylish neo-noir action-platformer featuring instant-death combat and time manipulation. Slash through enemies, manipulate time, and unravel a dark conspiracy in this cinematic experience.",
+    "ratings": "4.7",
+    "developer": "Askiisoft"
+  },
+  {
+    "id": "16",
+    "title": "Return of the Obra Dinn",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1irg.jpg",
+    "category": "Puzzle",
+    "downloadLink": "https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/",
+    "description": "A unique detective puzzle game set on an abandoned merchant ship. Use supernatural powers to witness the moment of death and deduce the fate of all 60 crew members in this 1-bit mystery.",
+    "ratings": "4.8",
+    "developer": "Lucas Pope"
+  },
+  {
+    "id": "17",
+    "title": "Outer Wilds",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqa.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+    "description": "An open-world mystery about a solar system trapped in an endless time loop. Explore planets, uncover secrets, and piece together the truth about ancient civilizations in this space exploration game.",
+    "ratings": "4.9",
+    "developer": "Mobius Digital"
+  },
+  {
+    "id": "18",
+    "title": "Firewatch",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rfi.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/383870/Firewatch/",
+    "description": "A first-person mystery set in the Wyoming wilderness. Play as a fire lookout uncovering strange occurrences in the forest while building a relationship through radio conversations.",
+    "ratings": "4.4",
+    "developer": "Campo Santo"
+  },
+  {
+    "id": "19",
+    "title": "Gris",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1isd.jpg",
+    "category": "Platformer",
+    "downloadLink": "https://store.steampowered.com/app/683320/GRIS/",
+    "description": "A serene and evocative platformer with no dialogue. Journey through a fading world, restore color and hope, and experience a touching story of overcoming hardship through beautiful art and music.",
+    "ratings": "4.6",
+    "developer": "Nomada Studio"
+  },
+  {
+    "id": "20",
+    "title": "A Short Hike",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y4t.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/1055540/A_Short_Hike/",
+    "description": "A peaceful exploration game about hiking to the top of a mountain. Meet quirky characters, discover hidden treasures, and enjoy the freedom to explore at your own pace in this charming adventure.",
+    "ratings": "4.7",
+    "developer": "adamgryu"
+  },
+  {
+    "id": "21",
+    "title": "Don't Starve Together",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w5y.jpg",
+    "category": "Survival",
+    "downloadLink": "https://store.steampowered.com/app/322330/Dont_Starve_Together/",
+    "description": "A multiplayer survival game set in a dark, whimsical world. Gather resources, craft items, build bases, and battle strange creatures while trying to survive the harsh wilderness with friends.",
+    "ratings": "4.5",
+    "developer": "Klei Entertainment"
+  },
+  {
+    "id": "22",
+    "title": "Limbo",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rfl.jpg",
+    "category": "Puzzle Platformer",
+    "downloadLink": "https://store.steampowered.com/app/48000/LIMBO/",
+    "description": "A dark and atmospheric puzzle-platformer with minimalist design. Guide a boy through a dangerous world filled with deadly traps and mysteries in this haunting black-and-white adventure.",
+    "ratings": "4.5",
+    "developer": "Playdead"
+  },
+  {
+    "id": "23",
+    "title": "Hotline Miami",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgq.jpg",
+    "category": "Action",
+    "downloadLink": "https://store.steampowered.com/app/219150/Hotline_Miami/",
+    "description": "A brutal top-down action game set in 1980s Miami. Clear rooms of enemies with fast-paced combat, unlock weapons and masks, and unravel a surreal story with a pulsing electronic soundtrack.",
+    "ratings": "4.6",
+    "developer": "Dennaton Games"
+  },
+  {
+    "id": "24",
+    "title": "Enter the Gungeon",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1irh.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/311690/Enter_the_Gungeon/",
+    "description": "A bullet-hell dungeon crawler with roguelike elements. Battle through procedurally generated floors, collect absurd weapons, dodge endless bullets, and defeat challenging bosses in the Gungeon.",
+    "ratings": "4.6",
+    "developer": "Dodge Roll"
+  },
+  {
+    "id": "25",
+    "title": "FTL: Faster Than Light",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgj.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/",
+    "description": "A space-based roguelike strategy game about managing a spaceship and crew. Navigate through sectors, manage resources, upgrade your ship, and make strategic decisions in intense real-time battles.",
+    "ratings": "4.7",
+    "developer": "Subset Games"
+  },
+  {
+    "id": "26",
+    "title": "Risk of Rain 2",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyi.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/632360/Risk_of_Rain_2/",
+    "description": "A 3D multiplayer roguelike with chaotic action. Fight through hordes of enemies, stack powerful items, unlock diverse survivors, and battle massive bosses in increasingly difficult runs.",
+    "ratings": "4.7",
+    "developer": "Hopoo Games"
+  },
+  {
+    "id": "27",
+    "title": "Braid",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgd.jpg",
+    "category": "Puzzle Platformer",
+    "downloadLink": "https://store.steampowered.com/app/26800/Braid/",
+    "description": "A puzzle-platformer with time-manipulation mechanics. Solve clever puzzles by rewinding time, explore beautifully painted worlds, and uncover a deeply philosophical narrative about relationships and loss.",
+    "ratings": "4.5",
+    "developer": "Number None"
+  },
+  {
+    "id": "28",
+    "title": "Inside",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8a.jpg",
+    "category": "Puzzle Platformer",
+    "downloadLink": "https://store.steampowered.com/app/304430/INSIDE/",
+    "description": "A dark atmospheric puzzle-platformer from the creators of Limbo. Guide a boy through a dystopian world filled with environmental puzzles and disturbing secrets in this haunting cinematic experience.",
+    "ratings": "4.8",
+    "developer": "Playdead"
+  },
+  {
+    "id": "29",
+    "title": "The Stanley Parable",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xpr.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/221910/The_Stanley_Parable/",
+    "description": "A first-person exploration game about choice and narrative. Follow or defy the narrator's instructions as Stanley, an office worker, and discover multiple branching storylines and hilarious endings.",
+    "ratings": "4.6",
+    "developer": "Galactic Cafe"
+  },
+  {
+    "id": "30",
+    "title": "Bastion",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgf.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://store.steampowered.com/app/107100/Bastion/",
+    "description": "An action RPG with beautiful hand-painted artwork and dynamic narration. Build a safe haven, explore lush environments, battle enemies with customizable weapons, and uncover the story of the Calamity.",
+    "ratings": "4.6",
+    "developer": "Supergiant Games"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2",
+    "title": "Stardew Valley",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xbg.jpg",
+    "category": "Simulation",
+    "downloadLink": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+    "description": "Build the farm of your dreams in this peaceful farming simulator. Grow crops, raise animals, craft items, and build relationships with the townspeople in this charming countryside adventure.",
+    "ratings": "4.9",
+    "developer": "ConcernedApe"
+  },
+  {
+    "id": "4",
+    "title": "Hades",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i6u.jpg",
+    "category": "Roguelike",
+    "downloadLink": "https://store.steampowered.com/app/1145360/Hades/",
+    "description": "Defy the god of the dead in this hack-and-slash roguelike. Battle out of hell with ever-changing challenges, unlock powerful upgrades, and uncover an epic story with stunning art and voice acting.",
+    "ratings": "4.9",
+    "developer": "Supergiant Games"
+  },
+  {
+    "id": "17",
+    "title": "Outer Wilds",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqa.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://store.steampowered.com/app/753640/Outer_Wilds/",
+    "description": "An open-world mystery about a solar system trapped in an endless time loop. Explore planets, uncover secrets, and piece together the truth about ancient civilizations in this space exploration game.",
+    "ratings": "4.9",
+    "developer": "Mobius Digital"
+  }
+]

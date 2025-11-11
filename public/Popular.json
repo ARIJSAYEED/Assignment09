@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "Hollow Knight",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+    "category": "Metroidvania",
+    "downloadLink": "https://store.steampowered.com/app/367520/Hollow_Knight/",
+    "description": "A challenging 2D action-adventure through a vast interconnected world. Battle enemies, explore forgotten caverns, and uncover ancient secrets in this beautifully hand-drawn indie masterpiece.",
+    "ratings": "4.8",
+    "developer": "Team Cherry"
+  },
+  {
+    "id": "7",
+    "title": "Terraria",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgc.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://store.steampowered.com/app/105600/Terraria/",
+    "description": "Dig, fight, explore, and build in this 2D sandbox adventure. Battle monsters, craft weapons and armor, build structures, and discover treasures in procedurally generated worlds.",
+    "ratings": "4.8",
+    "developer": "Re-Logic"
+  },
+  {
+    "id": "10",
+    "title": "Slay the Spire",
+    "coverPhoto": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1irf.jpg",
+    "category": "Card Game",
+    "downloadLink": "https://store.steampowered.com/app/646570/Slay_the_Spire/",
+    "description": "A roguelike deck-building game where you craft a unique deck and climb the spire. Battle enemies with strategic card combos, unlock new cards, and face challenging bosses in ever-changing runs.",
+    "ratings": "4.8",
+    "developer": "MegaCrit"
+  }
+]
