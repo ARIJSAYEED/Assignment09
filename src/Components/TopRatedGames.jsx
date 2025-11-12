@@ -10,7 +10,7 @@ const TopRatedGames = () => {
         let data = fetch('/Top3.json')
             .then(result => result.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 setData(data)
             })
     }, [])

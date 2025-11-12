@@ -4,11 +4,15 @@ import Home from '../Pages/Home';
 import Games from '../Pages/Games';
 import Root from '../Components/Root';
 import Error from '../Pages/Error';
+import Auth from '../Pages/Auth';
+import Login from '../Components/Login';
+import Register from '../Components/Register';
 
 export let router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
+        errorElement:<Error></Error>,
         children: [
             {
                 index: true,
@@ -17,13 +21,28 @@ export let router = createBrowserRouter([
         ]
     },
     {
+        path: 'auth',
+        element: <Auth></Auth>,
+        children:[
+            {
+                path:'/auth/login',
+                element:<Login></Login>
+            },
+            {
+                path:'/auth/register',
+                element:<Register></Register>
+            }
+        ]
+
+    },
+    {
         path: 'games',
         element: <Games></Games>,
         loader: () => fetch('/Data30.json')
     },
     {
-        path:'/*',
-        element:<Error></Error>
+        path: '/*',
+        element: <Error></Error>
     }
 ])
 

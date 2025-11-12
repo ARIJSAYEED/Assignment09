@@ -4,7 +4,7 @@ import GameCard from './GameCard';
 
 const AllGames = () => {
     let data = useLoaderData();
-    console.log(data);
+    // console.log(data);
     return (
         <div>
             <div>

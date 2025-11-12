@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import logo from '../../assets/GameHub Logo.png'
 import { NavLink } from 'react-router';
 import './NavBar.css'
+import { AuthContext } from '../../Auth/AuthProvider';
 
 const NavBar = () => {
+    let { user, logOut } = useContext(AuthContext)
+
+    let handleLogOut = () => {
+        // alert('user trying to logout');
+        logOut()
+            .then(() => {
+                alert('Logged Out Successfully');
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }
+
     let links = <>
-        <NavLink className='text-lg font-semibold' to='/'>Home</NavLink>
-        <NavLink className='text-lg font-semibold' to='/games'>Games</NavLink>
-        <NavLink className='text-lg font-semibold' to='/developers'>Developers</NavLink>
+        <NavLink className='text-lg font-semibold px-5 py-2 rounded-xl' to='/'>Home</NavLink>
+        <NavLink className='text-lg font-semibold px-5 py-2 rounded-xl' to='/games'>Games</NavLink>
+        <NavLink className='text-lg font-semibold px-5 py-2 rounded-xl' to='/developers'>Developers</NavLink>
     </>
 
     return (
@@ -33,9 +47,28 @@ const NavBar = () => {
                         {links}
                     </ul>
                 </div>
-                <div className="navbar-end space-x-3">
-                    <a className="btn bg-[#0099FF] text-white rounded-2xl">Login</a>
-                    <a className="btn bg-[#0099FF] text-white rounded-2xl">Register</a>
+                <div className="navbar-end">
+                    {
+                        user ?
+                            <div className='flex gap-3'>
+                                <div>
+                                    <img className='w-10 h-10 rounded-full object-cover' src={`${user ? user.photoURL : ''}`} alt="" />
+                                </div>
+                                <button onClick={handleLogOut}>
+                                    <a className="text-lg btn bg-[#0099FF] text-white rounded-2xl">logOut</a>
+                                </button>
+                            </div>
+                            :
+                            <div className='space-x-3'>
+                                <NavLink to='/auth/login'>
+                                    <a className="text-lg btn bg-[#0099FF] text-white rounded-2xl">Login</a>
+                                </NavLink>
+                                <NavLink to='/auth/register'>
+                                    <a className="text-lg btn bg-[#0099FF] text-white rounded-2xl">Register</a>
+                                </NavLink>
+                            </div>
+                    }
+
                 </div>
             </div>
         </div>

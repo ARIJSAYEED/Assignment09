@@ -13,7 +13,7 @@ const PopularGames = () => {
         let data = fetch('/Popular.json')
             .then(result => result.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 setGames(data)
             })
     }, [])
