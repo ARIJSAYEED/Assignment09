@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router';
+import { AuthContext } from '../Auth/AuthProvider';
 
 const TopRatedGamesCard = ({ game }) => {
+    let { user } = useContext(AuthContext)
     return (
         <div className='border border-neutral-300 p-5 rounded-2xl shadow-lg space-y-5'>
             <div>
@@ -12,7 +14,7 @@ const TopRatedGamesCard = ({ game }) => {
                 <p className='text-sm font-medium text-neutral-500'>By {game.developer}</p>
             </div>
             <div>
-                <Link to={`/games-details/${game.id}`}>
+                <Link to={user ? `/games-details/${game.id}` : '/auth/login'}>
                     <button className='rounded-lg w-full p-2 bg-[#0099FF] text-lg text-white font-semibold cursor-pointer'>Details</button>
                 </Link>
             </div>

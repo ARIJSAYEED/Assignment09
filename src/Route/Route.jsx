@@ -8,12 +8,13 @@ import Auth from '../Pages/Auth';
 import Login from '../Components/Login';
 import Register from '../Components/Register';
 import GameDetails from '../Pages/GameDetails';
+import PrivateRoute from '../Auth/PrivateRoute';
 
 export let router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
-        errorElement:<Error></Error>,
+        errorElement: <Error></Error>,
         children: [
             {
                 index: true,
@@ -24,14 +25,14 @@ export let router = createBrowserRouter([
     {
         path: 'auth',
         element: <Auth></Auth>,
-        children:[
+        children: [
             {
-                path:'/auth/login',
-                element:<Login></Login>
+                path: '/auth/login',
+                element: <Login></Login>
             },
             {
-                path:'/auth/register',
-                element:<Register></Register>
+                path: '/auth/register',
+                element: <Register></Register>
             }
         ]
 
@@ -42,9 +43,16 @@ export let router = createBrowserRouter([
         loader: () => fetch('/Data30.json')
     },
     {
-        path:'games-details/:id',
-        loader:()=>fetch('/Data30.json'),
-        element:<GameDetails></GameDetails>
+        path: 'games-details/:id',
+        loader: () => fetch('/Data30.json'),
+        element: <PrivateRoute>
+            <GameDetails></GameDetails>
+        </PrivateRoute>
+    },
+    {
+        path: 'developer',
+        loader: () => fetch('/Data30.json'),
+        element:
     },
     {
         path: '/*',
