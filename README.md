@@ -1,16 +1,66 @@
-# React + Vite
+# 🎮 GameHub - A Game Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GameHub** is an engaging online platform for discovering and supporting indie game developers.  
+Users can browse games, view detailed information, and download or install them if they like.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live URL
+🔗 [https://luminous-cheesecake-c202bd.netlify.app/](https://luminous-cheesecake-c202bd.netlify.app/)  
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 🎯 Purpose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The purpose of **GameHub** is to create a vibrant and interactive library where gamers can explore popular and emerging indie games in one place.  
+It also demonstrates modern web development concepts like authentication, protected routes, dynamic JSON data rendering, and responsive UI using React and Firebase.
+
+
+
+## ✨ Key Features
+
+- 🧩 **Single Page Application (SPA)** with React Router  
+- 🖼️ **Dynamic Homepage** featuring:
+  - Interactive **banner slider**
+  - **Popular games** section sorted by ratings
+  - **Newsletter subscription** section
+- 🧠 **Game Details Page (Protected Route)** — only accessible to logged-in users  
+- 🔐 **Authentication System**
+  - Email & password-based login and registration
+  - Profile update feature (name & photo URL)
+  - Password validation rules (uppercase, lowercase, 6+ chars)
+- ⚙️ **Firebase Integration** for secure authentication  
+- 📁 **JSON-based Game Data** (includes title, rating, developer, and download links)  
+- 🌈 **Responsive Design** for tablet, and desktop  
+- 🚀 **Error Page (404)** for invalid routes  
+- 👤 **User Profile Page** with update information option  
+
+
+
+## 🧰 NPM Packages Used
+
+| Package | Purpose |
+|----------|----------|
+| **react-router-dom** | Client-side routing |
+| **firebase** | Authentication & backend services |
+| **framer-motion** | Animations and motion effects |
+| **react-icons** | Icons used across UI |
+| **react-toastify** | Toast notifications for user feedback |
+| **swiper / react-slick** *(if used)* | Banner or game slider |
+| **dotenv** | To secure Firebase keys via environment variables |
+
+
+
+## 🧑‍💻 Developer Notes
+
+- **Environment Variables:** Firebase configuration keys are secured in a `.env` file.  
+- **Deployment:** Hosted on Netlify.  
+
+
+
+## 🏁 Conclusion
+
+GameHub demonstrates core web development concepts such as authentication, routing, API/JSON handling, and responsive design — wrapped in a modern, game-centric user experience.
+
+
+
