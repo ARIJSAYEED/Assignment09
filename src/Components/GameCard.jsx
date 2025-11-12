@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const GameCard = ({ game }) => {
     return (
@@ -11,7 +12,9 @@ const GameCard = ({ game }) => {
                 <p className='text-sm font-medium text-neutral-500'>By {game.developer}</p>
             </div>
             <div>
-                <button className='rounded-lg w-full p-2 bg-[#0099FF] text-lg text-white font-semibold cursor-pointer'>Details</button>
+                <Link to={`/games-details/${game.id}`}>
+                    <button className='rounded-lg w-full p-2 bg-[#0099FF] text-lg text-white font-semibold cursor-pointer'>Details</button>
+                </Link>
             </div>
         </div>
     );

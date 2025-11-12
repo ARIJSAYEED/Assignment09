@@ -5,7 +5,7 @@ import NavBar from '../Components/NavBar/NavBar';
 
 const Games = () => {
     return (
-        <div className='max-w-[1200px] mx-auto'>
+        <div className='max-w-[1200px] mx-auto space-y-5'>
             <NavBar></NavBar>
             <AllGames></AllGames>
             <Footer></Footer>

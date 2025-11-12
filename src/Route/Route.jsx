@@ -7,6 +7,7 @@ import Error from '../Pages/Error';
 import Auth from '../Pages/Auth';
 import Login from '../Components/Login';
 import Register from '../Components/Register';
+import GameDetails from '../Pages/GameDetails';
 
 export let router = createBrowserRouter([
     {
@@ -39,6 +40,11 @@ export let router = createBrowserRouter([
         path: 'games',
         element: <Games></Games>,
         loader: () => fetch('/Data30.json')
+    },
+    {
+        path:'games-details/:id',
+        loader:()=>fetch('/Data30.json'),
+        element:<GameDetails></GameDetails>
     },
     {
         path: '/*',

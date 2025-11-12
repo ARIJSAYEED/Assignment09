@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import HW from '../assets/hk.jpg'
 import MC from '../assets/mc.jpg'
 import EG from '../assets/eg.jpg'
@@ -6,17 +6,17 @@ import EG from '../assets/eg.jpg'
 
 const PopularGames = () => {
 
-    let [games, setGames] = useState([])
+    // let [games, setGames] = useState([])
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        let data = fetch('/Popular.json')
-            .then(result => result.json())
-            .then(data => {
-                // console.log(data);
-                setGames(data)
-            })
-    }, [])
+    //     let data = fetch('/Popular.json')
+    //         .then(result => result.json())
+    //         .then(data => {
+    //             // console.log(data);
+    //             setGames(data)
+    //         })
+    // }, [])
 
     return (
         <div>

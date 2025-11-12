@@ -6,7 +6,7 @@ const AllGames = () => {
     let data = useLoaderData();
     // console.log(data);
     return (
-        <div>
+        <div className='space-y-5'>
             <div>
                 <h1 className='text-4xl font-bold text-center'>All Exculsive Apps</h1>
             </div>
