@@ -9,6 +9,7 @@ import Login from '../Components/Login';
 import Register from '../Components/Register';
 import GameDetails from '../Pages/GameDetails';
 import PrivateRoute from '../Auth/PrivateRoute';
+import Developer from '../Pages/Developer';
 
 export let router = createBrowserRouter([
     {
@@ -50,9 +51,11 @@ export let router = createBrowserRouter([
         </PrivateRoute>
     },
     {
-        path: 'developer',
+        path: 'developers',
         loader: () => fetch('/Data30.json'),
-        element:
+        element:<PrivateRoute>
+            <Developer></Developer>
+        </PrivateRoute>
     },
     {
         path: '/*',
